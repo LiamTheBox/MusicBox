@@ -1,0 +1,95 @@
+/*spreadsheet made specifically for musicbox-shop.html*/
+
+/*search bar*/
+.d-flex { /*white search bar*/
+  padding: 0 20px 0 20px;
+  margin: 0 auto 20px auto;
+  max-width: 500px;
+}
+
+.search-button { /*blue search button*/
+  width: 20px;
+}
+/*search bar end*/
+
+/*-------------------------------------------------------------------------*/
+
+/*codehim's css*/ /*https://www.codehim.com/demo/javascript-shopping-cart-source-code/*/
+/*To set correct colours*/
+.add-to-cart-button {
+  font-size: medium;
+  color: #000000;
+  background-color: #f9f9f9;
+}
+.badge-danger {
+  color: #000000;
+}
+.badge-dark {
+  color: #000000;
+}
+
+/*codehim's css (modified)*/
+.product-name {
+  font-weight: 700;
+  text-decoration: underline;
+}
+  
+.product-price,
+.cart_item_price {
+  font-style: oblique;
+}
+  
+.product-img {
+  max-width: 200px;
+  margin: 10px auto 0px auto;
+}
+  
+.card {
+  background-color: rgb(200, 140, 70, 0.8);
+  border: 1px rgba(15, 15, 15, 0.2);
+}
+  
+.btn:disabled {
+  opacity: 0.5;
+}
+  
+.cart_item_name {
+  color: #000000;
+  font-weight: 700;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 20, 20, 0.25);
+  font-size: xx-large;
+  cursor: wait;
+  letter-spacing: 0.005em;
+  text-shadow: 2px 2px 0px rgb(15, 15, 15, 0.2), 1px 1px 0px rgb(245 ,245 ,245);
+}
+  
+.paypal {
+  display: none;
+}
+
+/*codehim's css end*/   
+
+/*-------------------------------------------------------------------------*/
+
+.content-paragraph { 
+  margin: 0px 10px 15px 10px;
+}
+
+.album-image { /*images for albums*/
+  margin: 5px 5px 10px 5px;
+  width: 45%;
+  min-width: 0px;
+  max-width: 240px;
+}
+/*content end*/

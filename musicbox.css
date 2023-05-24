@@ -1,0 +1,133 @@
+/*spreadsheet made for all webpages in musicbox*/
+* { /*sets the entire webpage's padding and margin to zero*/
+  padding: 0;
+  margin: 0;
+}
+
+@font-face { /*brands title & heading font*/
+  font-family: "harman-sans";
+  src: url(media/fonts/harman-sans.ttf) format("truetype");
+}
+
+@font-face { /*brands text and paragraph font*/
+  font-family: "source-sans-pro-8";
+  src: url(media/fonts/source-sans-pro-8.ttf) format("truetype");
+}
+
+body { /*background in red and text font color*/
+  font-family: "harman-sans", sans-serif;
+  color: rgb(15, 15, 15);
+  background: rgb(220, 20, 20);
+}
+
+h1, h2, h3, h4, h5, h6 { /*heading tags*/
+  font-family: "harman-sans", sans-serif;
+}
+
+p { /*paragraph tag*/
+  font-family: "source-sans-pro-8", sans-serif;
+}
+
+hr { /*extra space*/
+  border: 0px
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*navigation bar by Bootstrap's example*/
+/*https://getbootstrap.com/docs/5.3/examples/*/
+.container-fluid { /*navigation bar properties*/
+  font-family: "harman-sans", sans-serif;
+  font-size: 25px;
+  background-color: rgb(245 ,245 ,245);
+  margin-top: -10px;
+}
+
+.navbar-icon { /*musicbox logo (left)*/
+  width: 45px;
+}
+
+.navbar-brand { /*musicbox brand (middle)*/
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 40px;
+  color: rgb(220, 20, 20);
+  transition: 0.25s;
+}
+
+#mynavbar { /*shows the 'about', 'shop and 'contact' on the left*/
+  flex-grow: 0;
+}
+
+.navbar-toggler { /*dropdown list button (right)*/
+  padding: 5px;
+}
+
+.nav-link { /*dropdown list (bottom)*/
+  border: 0px;
+  padding: 10px;
+  text-align: center;
+}
+/*navigation bar end*/
+
+/*-------------------------------------------------------------------------*/
+
+/*content (text aligned: center)*/
+.content { /*content is on the center*/
+  text-align: center;
+}
+
+.content-header-xxxl { /*web page's title*/
+  margin-top: 10px;
+  font-size: xxx-large;
+}
+
+.content-header-xxl { /*subtitle*/
+  margin-top: 10px;
+  font-size: xx-large;
+}
+
+.content-header-xl { /*subtitle*/
+  margin-top: 10px;
+  font-size: x-large;
+}
+
+.content-paragraph { /*paragraphs*/
+  font-size: x-large;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 20px auto;
+}
+/*content center end*/
+
+/*-------------------------------------*/
+
+/*container (text aligned: left)*/
+.container { /*content is on the left*/
+  text-align: left;
+}
+
+.container-header { /*web page's title*/
+  font-size: 40px;
+}
+
+.container-paragraph { /*paragraphs*/
+  font-size: 20px;
+}
+/*Container left end*/
+
+/*-------------------------------------*/
+
+/*links*/
+.content-paragraph-link {
+  color:rgb(15, 15, 15);
+}
+
+a:hover { /*hover over links*/
+  color: rgb(220, 20, 20);
+}
+
+a.active {
+  color: rgb(15, 15, 15);
+}
+
+/*-------------------------------------------------------------------------*/

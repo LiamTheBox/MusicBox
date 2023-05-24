@@ -1,0 +1,25 @@
+/*spreadsheet made specifically for musicbox-home.html*/
+/*musicbox's home page*/
+
+.content-logo {
+  margin: -35px 5px 5px 5px;
+  width: 75%;
+  min-width: 0px;
+  max-width: 550px;
+}
+
+/*buttons to redirect to other pages (About, Shop and Contact)*/
+.hyperlink-button {
+  text-decoration: none;
+  margin: 0px 40px 0px 40px;
+  padding: 10px 20px 10px 20px;
+  transition: 0.75s;
+  color: rgb(220, 20, 20);
+  background-color: rgb(245 ,245 ,245);
+  font-size: xx-large;
+  border: rgb(245 ,245 ,245);
+}
+
+.hyperlink-button:hover {
+  text-decoration: underline;
+}

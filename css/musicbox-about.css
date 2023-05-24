@@ -1,0 +1,14 @@
+/*spreadsheet made specifically for musicbox-about.html*/
+/*musicbox's about page*/
+
+.content-paragraph {/*paragraphs are in the center an have a width limit*/
+  max-width: 800px;
+}
+
+.artist-image { /*images for artist profiles*/
+    margin: 5px 5px 10px 5px;
+    width: 45%;
+    min-width: 0px;
+    max-width: 240px;
+  }
+  

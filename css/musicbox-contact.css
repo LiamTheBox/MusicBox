@@ -1,0 +1,78 @@
+/*spreadsheet made specifically for musicbox-contact.html*/
+/*musicbox's contact page*/
+
+.content-paragraph {/*paragraphs are in the center an have a width limit*/
+  max-width: 600px;
+}
+
+.contact-icon { /*contact icons*/
+  margin-right: 10px;
+  width: 35px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*customer support block*/
+.customer-support {
+  background-color: rgb(200, 140, 70, 0.8);
+}
+
+.customer-support-header {
+  color: rgb(15, 15, 15);
+  font-size: xx-large;
+}
+
+.customer-support-paragraph { /*customer support paragraph*/
+  color: rgb(15, 15, 15);
+  font-size: x-large;
+  padding: 0 15px 0 15px;
+  margin: 0 auto 20px auto;
+}
+
+/*link (customer support)*/
+.customer-support-link {
+  margin-top: -10px;
+  color:rgb(15, 15, 15);
+}
+
+.customer-support-link:hover { /*hover over links*/
+  color: rgb(235 ,235 ,235);
+}
+
+.customer-support-link:active {
+  color: rgb(15, 15, 15);
+}
+/*customer support end*/
+
+/*-------------------------------------------------------------------------*/
+
+/*artist support block*/
+.artist-support { 
+  background-color: rgb(15, 15, 15, 0.95);
+}
+
+.artist-support-header {
+  color: rgb(235 ,235 ,235);
+}
+
+.artist-support-paragraph { /*artist support paragraph*/
+  color: rgb(235 ,235 ,235);
+  font-size: x-large;
+  padding: 0 15px 0 15px;
+  margin: 0 auto 20px auto;
+}
+
+/*link (artist support)*/
+.artist-support-link {
+  margin-top: -10px;
+  color:rgb(235 ,235 ,235);
+}
+
+.artist-support-link:hover { /*hover over links*/
+  color: rgb(220, 20, 20);
+}
+
+.artist-support-link:active {
+  color: rgb(235 ,235 ,235);
+}
+/*artist customer support end*/

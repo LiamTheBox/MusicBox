@@ -1,0 +1,14 @@
+.content { /*content is on the center*/
+    text-align: center;
+}
+
+#row-left { /*brown row*/
+    background-color: rgb(200, 140, 70, 0.8);
+    color: rgb(15, 15, 15);
+  }
+  
+#row-right { /*white row*/
+    background-color: rgb(15, 15, 15, 0.95);
+    color:rgb(245 ,245 ,245);
+}
+  /*main content end*/
